@@ -1,8 +1,6 @@
 function getShippingMessage(country, price, deliveryFee) {
-  //   загальна вартість замовлення
-  const totalPrice = price + deliveryFee;
-  // формуємо рядок з повідомленням
-  return `Shipping to ${country} will cost ${totalPrice} credits`;
+  const totalPrice = price + deliveryFee; //   загальна вартість замовлення
+  return `Shipping to ${country} will cost ${totalPrice} credits`; // формуємо рядок з повідомленням
 }
 
 // Перевірка коректності роботи функції
